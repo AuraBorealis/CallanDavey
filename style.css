@@ -1,7 +1,60 @@
 body {
-  background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://r1.ilikewallpaper.net/iphone-14-plus-wallpapers/download-110955/4k-Minimalist-Phone-Top-Free-4k-Minimalist-Phone-B.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
+
 h1 {
   color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 0px;
+
+}
+
+.button-container {
+  color: white;
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+a.button {
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: transparent; /* Add this line to set the background color to transparent */
+  color: #000000;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+.social-media-logo {
+  width: 50px;
+  height: auto;
+}
+
+.social-media-logo.soundcloud {
+  width: 60px; /* Adjust the width to your desired size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin: 8px auto 0; /* Add a margin of 5px on the top */
 }
